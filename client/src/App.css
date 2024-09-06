@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 50%;
+  margin: 0 auto;
+}
+
+header{
+  text-align: center;
+}
+
+header h1 {
+  font-size: 100px; 
+  color: #e36414; 
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  margin-bottom: 20px;
+}
+
+ .input-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.input {
+  font-size: 20px;
+  color: #5e6472;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(68, 59, 62);
+  padding: 5px;
+}
+
+.submitButton {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #006d77;
+  color: #fffffc;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.task {
+  background-color: #0b3954;
+  padding: 15px;
+  margin: 5px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task span {
+  color: #fffffc;
+}
+
+.icon {
+  float: right;
+  margin-right: 20px;
+}
+
+article {
+  display: grid;
+}
+
+.edit-todo {
+  width: 85%;
+  font-size: 16px;
+  color: #fffffc;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fffffc;
+}
+
+.button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #ffa62b;
+  background-color: #fffffc;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.button.selected {
+  color: #fffffc;
+  background-color: #ffa62b;
+}
+
+.button.clear {
+  float: right;
+  color: #fffffc;
+  background-color: #c81d25;
+  width: 170px;
+}
+
+.todosContainer {
+  padding-top: 20px;
+}
+
+.tabsContainer {
+  display: flex;
+  justify-content: center;
+}
